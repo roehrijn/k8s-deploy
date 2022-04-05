@@ -39,6 +39,10 @@ Following are the key capabilities of this action:
   <tr>
     <td>action </br></br>(Required)</td>
     <td>Acceptable values: deploy/promote/reject.</br>Promote or reject actions are used to promote or reject canary/blue-green deployments. Sample YAML snippets are provided below for guidance.</td>
+  </tr>  
+  <tr>
+    <td>annotate-namespace</br></br>(Optional)</td>
+    <td>Acceptable values: true/false</br>Default value: true</br>Switch whether to annotate the namespace resources object or not</td>
   </tr>
   <tr>
     <td>manifests </br></br>(Required)</td>
